@@ -31,13 +31,6 @@ function petitions_install() {
   variable_set('petitionssignatureform_form_petition_id_argument_location', 0);
   variable_set('petitionssignatureform_form_petition_id_argument_type', 2);
 
-  // Create the "Issues" taxonomy vocabulary.
-  $vocabulary = (object) array(
-    'name' => $t('Issues'),
-    'machine_name' => 'issues',
-  );
-  taxonomy_vocabulary_save($vocabulary);
-
   // Save issue terms for petitions install process.
   $terms = array(
     'Agriculture',
