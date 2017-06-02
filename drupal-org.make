@@ -123,7 +123,7 @@ libraries[disposable_email_checker][patch][pull-9] = https://patch-diff.githubus
 ; Calling this library js is a trick to get the file to the right spot, it
 ; should be fixed.
 libraries[js][download][type] = file
-libraries[js][download][url] = http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js
+libraries[js][download][url] = https://raw.githubusercontent.com/nditech/jquery-autopager/v1.0.0/jquery.autopager-1.0.0.js
 libraries[js][destination] = modules/contrib/views_infinite_scroll
 
 libraries[petitions-php-sdk][download][type] = git
